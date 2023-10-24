@@ -1,0 +1,7 @@
+.todo-wrapper {
+  width: 600px;
+  height: 80%;
+  margin: 0 auto;
+  display: grid;
+  gap: 15px;
+}

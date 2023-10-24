@@ -1,0 +1,29 @@
+.todo-form {
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  gap: 5px;
+}
+
+.todo-input {
+  height: 37px;
+  margin-right: 5px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.todo-btn {
+  height: 37px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(94, 201, 254);
+}
+
+.todo-btn:hover {
+  background-color: rgb(83, 83, 255);
+}

@@ -1,0 +1,29 @@
+.todo {
+  display: grid;
+  grid-template-columns: 1fr 35px;
+  height: 37px;
+  text-align: left;
+  align-items: center;
+  font-size: 20px;
+  background-color: darkgrey;
+  border-radius: 7px;
+  padding: 5px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.todo p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  background-color: rgb(197, 255, 197);
+}

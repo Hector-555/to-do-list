@@ -1,9 +1,12 @@
 import React from 'react';
-import './App.css';
+import TodoWrapper from './components/TodoWrapper/TodoWrapper';
 
 function App() {
   return (
-    <h1>Hello</h1>
+    <div>
+      <h1>Список задач</h1>
+      <TodoWrapper />
+    </div>
   );
 }
 
